@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ivCurrentTaskIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "current task icon clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "current task icon click", Toast.LENGTH_SHORT).show();
             }
         });
     }
